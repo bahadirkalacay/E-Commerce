@@ -1,0 +1,65 @@
+body {
+  font-family: "Trirong", serif !important;
+  background-color: #EFFFFD;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 400px;
+  min-width: 100px;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  z-index: 1;
+  font-family: "Trirong", serif !important;
+}
+
+.product-rating {
+  display: flex;
+  justify-content: center;
+}
+
+.product img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin: 20px 0 0 15px;
+}
+
+.product button {
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.product-price {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-info {
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+  .product {
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+
+  }
+  .product img{
+    width: 100px;
+    height: 100px;
+  }
+}

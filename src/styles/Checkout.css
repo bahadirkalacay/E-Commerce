@@ -1,0 +1,25 @@
+.checkout {
+  display: flex;
+  margin-left: 200px;
+  padding: 20px;
+  height: max-content;
+  width: 100%;
+}
+
+.checkout-title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.checkout-top {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 500px){
+  .checkout{
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+  }
+}

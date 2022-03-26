@@ -1,0 +1,145 @@
+* {
+    font-family: 'Tinos', serif;
+}
+.nav {
+    height: 60px !important; 
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    margin: 0 25px;
+    color: black
+}
+
+.nav-logo-item {
+    margin-right: 10px;
+    
+}
+
+.nav-title {
+    text-decoration: none;
+    border: 0;
+    color: white;
+}
+
+.nav-search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+    margin: 0 10px;
+}
+
+.nav-search-item {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.nav-search-logo {
+    padding: 5px;
+    height: 22px !important;
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;  
+    color: white;
+    width: 60px;
+}
+
+.nav-itemOne {
+    font-size: 12px !important;
+}
+
+.nav-itemTwo {
+    font-size: 13px !important;
+    font-weight: 800 !important; 
+}
+
+.nav-itemBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 5px !important;
+    margin-right: 50px !important;
+    margin-left: 10px !important;
+}
+
+.nav-basketCount {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.nav-itemOneLogo{
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+
+
+@media only screen and (max-width: 500px) {
+    .nav{
+        width: auto;
+    
+    }
+    .nav-logo{
+        width: 5px;
+        
+    }
+    .nav-title{
+        display: none;
+       
+    }
+    .nav-search{
+        width: 80px;
+    }
+    .nav-search-logo{
+        display: none;
+    }
+    .nav-items{
+        width: 170px;
+        height: 60px;
+        display: flex;
+
+    }
+    .nav-itemOne{
+        width: 20px;
+        font-size: 10px;
+        margin-top: 10px;
+
+
+    }
+    .nav-itemTwo{
+        width: 20px;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .nav-hello{
+        display: none;
+    }
+    .nav-shop{
+        margin-top: 0px;
+    }
+    .nav-itemBasket{
+        width: 1px;
+        margin-top: 13px !important;
+        
+        
+    }
+    
+  }
