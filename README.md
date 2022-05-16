@@ -1,6 +1,6 @@
-# Open with Vercel
+# Live Link : 
 
-https://vercel.com/bahadirkalacay/e-commerce
+https://e-commerce-4077phtt6-bahadirkalacay.vercel.app/
 
 # Getting Started with Create React App
 
